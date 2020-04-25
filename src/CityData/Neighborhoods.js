@@ -1,5 +1,5 @@
 const Neighborhoods = {
-  sf: [
+  westside: [
     { name: "Mission & Bernal", key: "mission_n_bernal", image: null },
     { name: "Pacific Heights", key: "pacific_heights", image: null },
     {
