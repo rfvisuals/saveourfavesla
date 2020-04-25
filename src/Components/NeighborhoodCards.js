@@ -16,10 +16,10 @@ function AreaDropdown(props) {
         props.updateArea(newArea);
       }}
     >
-      <option value="los-angeles">LOS ANGELES</option>
-      <option value="santa-monica">SANTA MONICA</option>
-      <option value="dtla">DTLA</option>
-      <option value="sfv">SAN FERNANDO VALLEY</option>
+      <option value="westside">WestSide</option>
+      <option value="eastbay">DTLA</option>
+      <option value="marin">Mid-City</option>
+      <option value="southbay">San Gabriel Valley</option>
     </select>
   );
 }

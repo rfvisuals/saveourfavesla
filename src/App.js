@@ -88,7 +88,13 @@ class App extends React.Component {
               }}
             />
             <Row className="hero-row">
-              <div style={{ maxWidth: "1100px", margin: "0px auto", minWidth: "0" }}>
+              <div
+                style={{
+                  maxWidth: "1100px",
+                  margin: "0px auto",
+                  minWidth: "0"
+                }}
+              >
                 <Row className="top-header" justify="center">
                   <Col span={24} offset={0}>
                     <Title style={{ float: "left", color: "white" }} level={4}>
@@ -139,8 +145,8 @@ class App extends React.Component {
                     level={1}
                     style={{ color: "white", textAlign: "center" }}
                   >
-                    Your favorite Bay Area restaurant might close forever. Help
-                    save it.
+                    Help your favorite Los Angeles restaurant and bars keep
+                    their doors open.
                   </Title>
                   <div className="header-sans">
                     Gift cards help "flatten the curve" of lost income from

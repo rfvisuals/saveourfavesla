@@ -64,5 +64,9 @@
     "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
       "prettier --write"
     ]
-  }
+  },
+  "description": "This is the frontend to saveourfaves.org; it pairs with [the backend code, also open source](https://github.com/mikeyk/saveourfaves-server), so please read the README there as well.",
+  "main": "index.js",
+  "author": "Ron Fu",
+  "license": "ISC"
 }

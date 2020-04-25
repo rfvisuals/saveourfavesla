@@ -58,7 +58,11 @@ function FAQModal(props) {
       title:
         "How else can I support our local businesses beyond purchasing a gift card?",
       body:
-        "Delivery and pickup are great options! Some restaurants that don’t normally offer delivery have started to offer curbside pickup, and others have closed temporarily. Check their website or social media for the latest info, or browse the " + renderLink("https://projects.sfchronicle.com/2020/restaurant-delivery/", "Los Angeles Chronicle's list") +
+        "Delivery and pickup are great options! Some restaurants that don’t normally offer delivery have started to offer curbside pickup, and others have closed temporarily. Check their website or social media for the latest info, or browse the " +
+        renderLink(
+          "https://projects.sfchronicle.com/2020/restaurant-delivery/",
+          "Los Angeles Chronicle's list"
+        ) +
         " of LA Area restaurants offering takeout. <br />" +
         "Tip generously if you can (even for delivery/pickup), since employees are doing extra work and putting their health at risk. <br />" +
         "Encourage the government to get involved. Sign this " +
@@ -68,7 +72,7 @@ function FAQModal(props) {
     {
       title: "Why is this just for the LA Area? Can you do this for my city?",
       body:
-        "As Los Angeles natives, we started this project for our community. Over the past days, people have launched similar tools for their specific cities, or even nationally. Check out " +
+        "As San Francisco natives, we started this project for our community. Over the past days, people have launched similar tools for their specific cities, or even nationally. Check out " +
         renderLink("https://helpmainstreet.com/", "Help Main Street") +
         ", " +
         renderLink("https://givelocal.co/", "GiveLocal") +
@@ -82,7 +86,7 @@ function FAQModal(props) {
     {
       title: "Who built this? And why?",
       body:
-        "We’re Kaitlyn & Mike Krieger -- a husband and wife duo in Los Angeles. We’re no longer going out because of COVID-19 (Los Angeles is under a “shelter in place” ordinance), so we started buying gift cards to help support our favorite cafes and restaurants during this unpredictable time. SaveOurFaves is our simple way to make it easier for people to help local businesses through this difficult time. We got help and advice from some great friends and local business owners, in particular Phil Levin, Zack Schwab, Kristen Berman, Stefanie Krieger, Melissa Dyrdahl, Laura Buhler, Paul Einbund, and Eddie Hernandez. You can contact us with any questions about the site at " +
+        "We’re Kaitlyn & Mike Krieger -- a husband and wife duo in San Francisco. We’re no longer going out because of COVID-19 (California is under a “shelter in place” ordinance), so we started buying gift cards to help support our favorite cafes and restaurants during this unpredictable time. SaveOurFaves is our simple way to make it easier for people to help local businesses through this difficult time. We got help and advice from some great friends and local business owners, in particular Phil Levin, Zack Schwab, Kristen Berman, Stefanie Krieger, Melissa Dyrdahl, Laura Buhler, Paul Einbund, and Eddie Hernandez. You can contact us with any questions about the site at " +
         renderLink("mailto:info@saveourfaves.org", "info@saveourfaves.org") +
         " and see more about why we decided to start it " +
         renderLink(
